@@ -253,20 +253,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: al2023-amd64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: al2023-amd64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: al2-amd64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: al2-amd64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: al1-amd64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: al1-amd64
+      #    path: ./output
 
       - uses: actions/download-artifact@v4
         with:
@@ -278,15 +278,15 @@ jobs:
           name: el8-amd64
           path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: el7-amd64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: el7-amd64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: el6-amd64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: el6-amd64
+      #    path: ./output
 
       # - uses: actions/download-artifact@v4
       #   with:

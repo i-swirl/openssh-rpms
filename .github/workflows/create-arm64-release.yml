@@ -236,17 +236,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: al2023-arm64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: al2023-arm64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: al2-arm64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: al2-arm64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
+       - uses: actions/download-artifact@v4
         with:
           name: el9-arm64
           path: ./output
@@ -256,12 +256,12 @@ jobs:
           name: el8-arm64
           path: ./output
 
-      - uses: actions/download-artifact@v4
-        with:
-          name: el7-arm64
-          path: ./output
+      # - uses: actions/download-artifact@v4
+      #  with:
+      #    name: el7-arm64
+      #    path: ./output
 
-      - uses: actions/download-artifact@v4
+     - uses: actions/download-artifact@v4
         with:
           name: oe2003-arm64
           path: ./output
