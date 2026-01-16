@@ -226,7 +226,7 @@ jobs:
     needs:
       # - build_al2023
       # - build_al2
-      - build_el9
+      # - build_el9
       - build_el8
       # - build_el7
       - build_oe2003
