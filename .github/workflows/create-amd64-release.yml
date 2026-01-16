@@ -238,13 +238,13 @@ jobs:
 
   create_release:
     needs:
-      - build_al2023
-      - build_al2
-      - build_al1
+      # - build_al2023
+      # - build_al2
+      # - build_al1
       - build_el9
       - build_el8
-      - build_el7
-      - build_el6
+      # - build_el7
+      # - build_el6
       # - build_el5
       - build_oe2003
       - build_oe2203
